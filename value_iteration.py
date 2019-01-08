@@ -24,7 +24,6 @@ def evaluatePolicy(env,policy,gamma=1.0,n=100):
 	]
 	return np.mean(scores)
 
-
 def calculatePolicy(v, gamma=1.0):
 	policy = np.zeros(env.env.nS)
 
